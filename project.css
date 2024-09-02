@@ -1,0 +1,91 @@
+html,body{
+    height: 100%;
+    margin:0;
+    padding: 0;
+
+}
+body {
+    background: linear-gradient(30deg,lightblue, rgb(178, 9, 9), lime);
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+h1{
+    color:rgb(245, 17, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input{
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    height: 50px;
+    width: 280px;
+}
+input.placeholder{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-btn{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    margin-inline: 10px ;
+    height: 50px;
+    width: 100px;
+    color: white;
+    background: green;
+    border: 1px solid white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+li{
+    list-style: none;
+    font-size: 30px;
+    font-weight: bolder;
+    color: aqua;
+    margin-top: 5px;
+}
+
+#close{
+    font-size: 70px;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+
+#delete-btn{
+    background: red;
+}
+
+#delete-one{
+    background: white;
+    color: red;
+    border: 1px, solid, red;
+}
